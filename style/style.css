@@ -8,15 +8,26 @@ body {
 .main {
     display: flex;
    justify-content: center;
+   align-items: center;
     background-color: #1F2937;
     color: azure;
-    min-height: 250px;
+    min-height: 150px;
 }
 
-header {
+.logo {
+    max-width: auto;
+    max-height: 90px;
+    justify-content: flex-start;
+}
+
+h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px; 
     font-weight: 700px;
-    align-content: center;
+}
+
+.random {
+    background-color: azure;
+    min-height: 300px;
 }
 
