@@ -24,12 +24,14 @@ a {
    align-items: flex-start;
     background-color: #1F2937;
     color: azure;
-    min-height: 400px;
 }
 
 .welcome {
+    margin-left: 130px;
     width: 350px;
     padding: 50px;
+    position: relative;
+    top: -27px
 }
 
 button {
@@ -40,15 +42,22 @@ button {
     border-radius: 10px;
 }
 
-.content {
+.contents {
     display: flex;
+   /* flex-direction: column; */
+}
+
+.content {
     max-width: auto;
-    max-height: 400px;
-    margin-left: 700px;
+    max-height: 300px;
+    margin-left: 850px;
+    position: relative;
+    top: -350px;
+    border: 5px solid black;
 }
 .logo {
     max-width: auto;
-    max-height: 50px;
+    max-height: 70px;
     justify-content: flex-start;
     margin-right: 1000px;
     margin-left: 30px;
@@ -61,8 +70,33 @@ h1 {
     font-weight: 700px;
 }
 
-.random {
+h2 {
     background-color: azure;
-    min-height: 300px;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
 }
 
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 150px;
+    justify-content: center;
+
+}
+
+.text {
+    border: 20px;
+    border-color: blue;
+    padding: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+}
