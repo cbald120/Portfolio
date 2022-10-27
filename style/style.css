@@ -3,21 +3,56 @@
 body {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
+.top {
+    display: flex;
+    background-color: #1F2937;
+gap: 22px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-top: 20px;
+}
 .main {
     display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-items: flex-start;
     background-color: #1F2937;
     color: azure;
-    min-height: 150px;
+    min-height: 400px;
 }
 
+.welcome {
+    width: 350px;
+    padding: 50px;
+}
+
+button {
+    background-color: blue;
+    padding: 8px;
+    color: azure;
+    border: white;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    max-width: auto;
+    max-height: 400px;
+    margin-left: 700px;
+}
 .logo {
     max-width: auto;
-    max-height: 90px;
+    max-height: 50px;
     justify-content: flex-start;
+    margin-right: 1000px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 h1 {
