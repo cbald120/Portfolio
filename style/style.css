@@ -1,0 +1,22 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+   justify-content: center;
+    background-color: #1F2937;
+    color: azure;
+    min-height: 250px;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px; 
+    font-weight: 700px;
+    align-content: center;
+}
+
